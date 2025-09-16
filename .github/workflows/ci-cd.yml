@@ -64,14 +64,14 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v3
       with:
-        username: asfodel
+        username: asfode1
         password: ${{ secrets.DOCKERHUB_TOKEN }}
         
     - name: Extract metadata
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: asfodel/parcel-tracker
+        images: asfode1/parcel-tracker
         tags: |
           type=ref,event=tag
           type=semver,pattern={{version}}
