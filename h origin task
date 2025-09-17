@@ -1,0 +1,5 @@
+[33m9944419[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtask[m[33m)[m feat: add unified CI/CD pipeline with test and docker jobs
+[33mdfff0e2[m[33m ([m[1;31morigin/task[m[33m)[m Fix linter errors: add proper error handling in tests
+[33m889161e[m Fix go.mod: remove problematic dependency and update go.sum
+[33mb41446f[m Add task branch specific changes
+[33m1704076[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m Initial commit: Add parcel tracker application with Docker and GitHub Actions
